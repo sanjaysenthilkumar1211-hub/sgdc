@@ -1,0 +1,19 @@
+{
+  "name": "shasthi-guru-dream-campus",
+  "version": "1.0.0",
+  "description": "Complete Website & Digital Platform Architecture for Shasthi Guru Dream Campus",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "education",
+    "counselling",
+    "admissions",
+    "crm",
+    "student-welfare"
+  ],
+  "author": "Shasthi Guru Dream Campus",
+  "license": "ISC"
+}

@@ -1,0 +1,200 @@
+/* ==========================================================================
+   SHASTHI GURU DREAM CAMPUS — RESPONSIVE STYLES
+   ========================================================================== */
+
+@media (max-width: 1400px) {
+  .nav-menu {
+    gap: 3px;
+  }
+  .nav-link {
+    font-size: 0.82rem;
+    padding: 5px 8px;
+  }
+  .brand-name {
+    font-size: 1.15rem;
+  }
+  .brand-tagline {
+    font-size: 0.65rem;
+  }
+  #navAdmissionQueryBtn {
+    padding: 7px 12px;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .pillars-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .crm-kpi-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .nav-menu {
+    gap: 2px;
+  }
+  
+  .nav-link {
+    font-size: 0.78rem;
+    padding: 4px 6px;
+  }
+}
+
+@media (max-width: 1180px) {
+  /* Navigation on Tablet / Mobile Drawer */
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 320px;
+    height: calc(100vh - 80px);
+    background: var(--white);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    box-shadow: var(--shadow-xl);
+    transition: left var(--transition-normal);
+    z-index: 1001;
+    overflow-y: auto;
+    gap: 6px;
+  }
+
+  .nav-menu.open {
+    left: 0;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-title {
+    font-size: 2.75rem;
+  }
+
+  .journey-steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 36px;
+  }
+
+  .journey-steps-grid::before {
+    display: none;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .guidance-4p-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .donation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .floating-mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 18px;
+  }
+
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2, .grid-3, .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .journey-steps-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guidance-4p-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .crm-kpi-row {
+    grid-template-columns: 1fr;
+  }
+
+  .crm-table-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .crm-search-box {
+    width: 100%;
+  }
+
+  .crm-filters {
+    flex-wrap: wrap;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar-contacts {
+    display: none;
+  }
+
+  .topbar-content {
+    justify-content: flex-end;
+  }
+
+  .modal-content {
+    padding: 16px;
+  }
+
+  body {
+    padding-bottom: 60px; /* Space for floating mobile bar */
+  }
+}
