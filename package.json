@@ -2,8 +2,8 @@
   "name": "shasthi-guru-dream-campus",
   "version": "1.0.0",
   "description": "Complete Website & Digital Platform Architecture for Shasthi Guru Dream Campus",
-  "main": "server.js",
   "scripts": {
+    "build": "echo 'Static site ready'",
     "start": "node server.js",
     "dev": "node server.js"
   },
